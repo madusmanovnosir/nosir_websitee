@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madusmanov Nosir | Profil Sayt</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #000;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 40px;
+      opacity: 0;
+      animation: fadeIn 2s ease forwards;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      color: #FFD700;
+      animation: slideDown 1.5s ease forwards;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #ddd;
+      animation: fadeIn 2.5s ease forwards;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: rgba(255, 215, 0, 0.05);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(255, 215, 0, 0.3);
+      transform: translateY(40px);
+      opacity: 0;
+      animation: fadeUp 2s ease forwards 0.8s;
+    }
+
+    h2 {
+      color: #FFD700;
+      border-bottom: 2px solid #FFD700;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 10px 0;
+      transition: transform 0.3s;
+    }
+
+    ul li:hover {
+      transform: translateX(10px);
+      color: #FFD700;
+    }
+
+    a {
+      color: #FFD700;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: #fff;
+      text-shadow: 0 0 10px #FFD700;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #999;
+      font-size: 0.9em;
+      animation: fadeIn 2.5s ease forwards 1.5s;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes fadeUp {
+      0% { opacity: 0; transform: translateY(40px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideDown {
+      0% { transform: translateY(-50px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Madusmanov Nosir</h1>
+    <p>Men hozirda o‘z biznesimni yaratmoqdaman va IT’ni o‘rganmoqdaman.</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>💻 Qiziqishlarim</h2>
+      <ul>
+        <li>IT va dasturlash</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📞 Aloqa</h2>
+      <p>Telegram: <a href="https://t.me/nosir_IT" target="_blank">@nosir_IT</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Madusmanov Nosir. Barcha huquqlar himoyalangan.</p>
+  </footer>
+</body>
+</html>
